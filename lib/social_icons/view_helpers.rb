@@ -20,6 +20,7 @@ module SocialIcons
       attr_accessor :url, :title, :desc, :popup, :size, :icon_set, :icon_path, :template, :html_options
 
       def initialize(template, options={})
+        
         @template = template
         
         #initialize defaults values
