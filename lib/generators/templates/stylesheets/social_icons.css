@@ -1,0 +1,11 @@
+.social_icons a,
+.social_icons a:visited{
+  outline: 0;  
+}
+.social_icons img{
+  border: none;
+}
+.facebook_like {
+  height:35px;
+  overflow:hidden;
+}

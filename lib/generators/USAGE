@@ -1,0 +1,7 @@
+Description:
+
+  Install the images icons into /public/images/social_icons and the default stylesheet file to /public/stylesheets/social_icons.css  
+
+Example:
+
+  rails g social_icons
