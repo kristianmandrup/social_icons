@@ -56,7 +56,7 @@ module SocialIcons
       def facebook_like
         content_tag :div, :class=> "facebook_like" do
           content_tag :iframe, '',
-              :src => "http://www.facebook.com/plugins/like.php?href=#{url}&layout=standard&show_faces=true&width=272&action=like&colorscheme=light&height=80",
+              :src => "http://www.facebook.com/plugins/like.php?href=#{url}&layout=button_count&show_faces=true&width=272&action=like&colorscheme=light&height=80",
               :scrolling => "no",
               :frameborder=>"0",
               :style=>"border:none;overflow:hidden; width:272px; height:80px;",
