@@ -1,0 +1,34 @@
+social_sprites {
+  background: url(assets/social_icons/aquaticus/png/social_icons_aqua.png) no-repeat top left;
+}
+
+social.sprite-blogger{ background-position: 0 0; width: 64px; height: 64px; } 
+social.sprite-delicious{ background-position: 0 -114px; width: 64px; height: 64px; } 
+social.sprite-digg{ background-position: 0 -228px; width: 64px; height: 64px; } 
+social.sprite-facebook{ background-position: 0 -342px; width: 64px; height: 64px; } 
+social.sprite-feed{ background-position: 0 -456px; width: 64px; height: 64px; } 
+social.sprite-flickr{ background-position: 0 -570px; width: 64px; height: 64px; } 
+social.sprite-friendfeed{ background-position: 0 -684px; width: 64px; height: 64px; } 
+social.sprite-friendster{ background-position: 0 -798px; width: 64px; height: 64px; } 
+social.sprite-furl{ background-position: 0 -912px; width: 64px; height: 64px; } 
+social.sprite-google{ background-position: 0 -1026px; width: 64px; height: 64px; } 
+social.sprite-lastfm{ background-position: 0 -1140px; width: 64px; height: 64px; } 
+social.sprite-linkedin{ background-position: 0 -1254px; width: 64px; height: 64px; } 
+social.sprite-livejournal{ background-position: 0 -1368px; width: 64px; height: 64px; } 
+social.sprite-magnolia{ background-position: 0 -1482px; width: 64px; height: 64px; } 
+social.sprite-mixx{ background-position: 0 -1596px; width: 64px; height: 64px; } 
+social.sprite-myspace{ background-position: 0 -1710px; width: 64px; height: 64px; } 
+social.sprite-netvibes{ background-position: 0 -1824px; width: 64px; height: 64px; } 
+social.sprite-newsvine{ background-position: 0 -1938px; width: 64px; height: 64px; } 
+social.sprite-picasa{ background-position: -114px 0; width: 64px; height: 64px; } 
+social.sprite-pownce{ background-position: -114px -114px; width: 64px; height: 64px; } 
+social.sprite-reddit{ background-position: -114px -228px; width: 64px; height: 64px; } 
+social.sprite-stumbleupon{ background-position: -114px -342px; width: 64px; height: 64px; } 
+social.sprite-technorati{ background-position: -114px -456px; width: 64px; height: 64px; } 
+social.sprite-twitter{ background-position: -114px -570px; width: 64px; height: 64px; } 
+social.sprite-vimeo{ background-position: -114px -684px; width: 64px; height: 64px; } 
+social.sprite-webshots{ background-position: -114px -798px; width: 64px; height: 64px; } 
+social.sprite-wordpress{ background-position: -114px -912px; width: 64px; height: 64px; } 
+social.sprite-yahoo{ background-position: -114px -1026px; width: 64px; height: 64px; } 
+social.sprite-yelp{ background-position: -114px -1140px; width: 64px; height: 64px; } 
+social.sprite-youtube{ background-position: -114px -1254px; width: 64px; height: 64px; } 

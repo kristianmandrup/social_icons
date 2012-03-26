@@ -11,31 +11,61 @@ Icons supported so far:
 - Delicious
 - Reddit
 - Digg
-
+- Youtube (and more)
 
 Installation
 ============
 
-Install plugin from github:
-
-$ ./script/plugin install git://github.com/ozgun/social_icons.git
-
-Installation hooks will copy some files to application's "public" folder.
-
-images/social_icons/*
-stylesheets/social_icons.css
+This gem is a Rails 3 engine and the asset folder will therefore be included in the Rails asset pipeline when the gem is included in your Rails 3 project.
 
 Load social_icons.css file in your layout(i.e. application.html.erb)
 
 <%= stylesheet_link_tag 'social_icons' %>
 
+Or simply include the css in your application.css manifest file
+
+Note that the icons are now available for use as CSS sprites (conversion done using: http://spritegen.website-performance.org/)
+
+Simply include the css for the type of icons you want to use.
+
+/*
+ *= require social_icons
+*/
+
+/*
+ *= require social_icons_default_60
+*/
+
+/*
+ *= require social_icons_aqua
+*/
+
 
 Usage
 ============
+
+Wrap with an element of class="social_sprites"
+
+<ul class="social_sprites">
+	<li class="social sprite-Google"></li>
+</ul> 
+
+View Helper methods
+=============
 
 Call "print_social_icons" method in your partials or views.
 
 <%= print_social_icons %>
 
+Specific icon methods:
+
+* facebook_like_button
+* social_icon_twitter
+* social_icon_facebook
+* social_icon_digg
+* social_icon_delicious
+* social_icon_reddit
+
+Rails 3 CSS sprite version by Kristian Mandrup (kmandrup@gmail.com)
 
 Copyright (c) 2010 [Özgun Koyun (kozgun@gmail.com)], released under the MIT license
