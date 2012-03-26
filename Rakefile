@@ -1,23 +1,37 @@
+require 'rubygems'
+require 'bundler'
+begin
+  Bundler.setup(:default, :development)
+rescue Bundler::BundlerError => e
+  $stderr.puts e.message
+  $stderr.puts "Run `bundle install` to install missing gems"
+  exit e.status_code
+end
 require 'rake'
-require 'rake/testtask'
-require 'rake/rdoctask'
 
-desc 'Default: run unit tests.'
-task :default => :test
+require 'jeweler'
+Jeweler::Tasks.new do |gem|
+  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+  gem.name = "social_icons"
+  gem.homepage = "https://github.com/kristianmandrup/social_icons"
+  gem.license = "MIT"
+  gem.summary = %Q{Social media icons for Rails 3}
+  gem.description = %Q{Social media icons for Rails 3}
+  gem.email = [""]
+  gem.authors = ["Kristian Mandrup"]
+  # Include your dependencies below. Runtime dependencies are required when using your gem,
+  # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
+  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+  #  gem.add_development_dependency 'rspec', '> 1.2.3'
+  gem.files.include ['lib/*/*']
+end
+Jeweler::RubygemsDotOrgTasks.new
 
-desc 'Test the social_icons plugin.'
-Rake::TestTask.new(:test) do |t|
-  t.libs << 'lib'
-  t.libs << 'test'
-  t.pattern = 'test/**/*_test.rb'
-  t.verbose = true
+require 'rspec/core/rake_task'
+
+desc "Run RSpec"
+RSpec::Core::RakeTask.new do |t|
+  t.verbose = false
 end
 
-desc 'Generate documentation for the social_icons plugin.'
-Rake::RDocTask.new(:rdoc) do |rdoc|
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title    = 'SocialIcons'
-  rdoc.options << '--line-numbers' << '--inline-source'
-  rdoc.rdoc_files.include('README')
-  rdoc.rdoc_files.include('lib/**/*.rb')
-end
+task :default => :spec
