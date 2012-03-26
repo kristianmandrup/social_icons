@@ -16,6 +16,8 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
     "MIT-LICENSE",
     "README",
     "Rakefile",
@@ -224,6 +226,7 @@ Gem::Specification.new do |s|
     "lib/social_icons.rb",
     "lib/social_icons/rails_engine.rb",
     "lib/social_icons/view_helpers.rb",
+    "social_icons.gemspec",
     "test/social_icons_test.rb",
     "test/test_helper.rb",
     "uninstall.rb"
