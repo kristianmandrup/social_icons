@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "social_icons"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
-  s.date = "2012-03-26"
+  s.date = "2012-03-27"
   s.description = "Social media icons for Rails 3"
   s.email = [""]
   s.extra_rdoc_files = [
