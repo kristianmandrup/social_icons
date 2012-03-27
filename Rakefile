@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "https://github.com/kristianmandrup/social_icons"
   gem.license = "MIT"
   gem.summary = %Q{Social media icons for Rails 3}
-  gem.description = %Q{Social media icons for Rails 3}
+  gem.description = %Q{Add social media icons to your Rails 3 using CSS sprites or images}
   gem.email = [""]
   gem.authors = ["Kristian Mandrup"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
