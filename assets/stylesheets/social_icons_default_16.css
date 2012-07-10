@@ -1,5 +1,5 @@
 .s16 .social_sprites {
-  background: url(assets/.s16 .social_icons/default/.s16 .social_icons_16.png) no-repeat top left;
+  background: url(assets/social_icons/default/social_icons_16.png) no-repeat top left;
 }
 
 .s16 .social.sprite-Google{ background-position: 0 0; width: 16px; height: 16px; } 

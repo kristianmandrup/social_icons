@@ -1,5 +1,5 @@
 .s60 .social_sprites {
-  background: url(assets/.s60 .social_icons/default/.s60 .social_icons_60.png) no-repeat top left;
+  background: url(assets/social_icons/default/social_icons_60.png) no-repeat top left;
 }
 
 .s60 .social.sprite-blogger{ background-position: 0 0; width: 60px; height: 60px; } 
