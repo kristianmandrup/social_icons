@@ -1,33 +1,33 @@
-social_sprites {
-  background: url(assets/social_icons/default/social_icons_60.png) no-repeat top left;
+.s60 .social_sprites {
+  background: url(assets/.s60 .social_icons/default/.s60 .social_icons_60.png) no-repeat top left;
 }
 
-social.sprite-blogger{ background-position: 0 0; width: 60px; height: 60px; } 
-social.sprite-delicious{ background-position: 0 -80px; width: 60px; height: 60px; } 
-social.sprite-digg{ background-position: 0 -160px; width: 60px; height: 60px; } 
-social.sprite-ebay{ background-position: 0 -240px; width: 60px; height: 60px; } 
-social.sprite-facebook{ background-position: 0 -320px; width: 60px; height: 60px; } 
-social.sprite-feed{ background-position: 0 -400px; width: 60px; height: 60px; } 
-social.sprite-flickr{ background-position: 0 -480px; width: 60px; height: 60px; } 
-social.sprite-friendfeed{ background-position: 0 -560px; width: 60px; height: 60px; } 
-social.sprite-friendster{ background-position: 0 -640px; width: 60px; height: 60px; } 
-social.sprite-furl{ background-position: 0 -720px; width: 60px; height: 60px; } 
-social.sprite-lastfm{ background-position: 0 -800px; width: 60px; height: 60px; } 
-social.sprite-linkedin{ background-position: 0 -880px; width: 60px; height: 60px; } 
-social.sprite-livejournal{ background-position: 0 -960px; width: 60px; height: 60px; } 
-social.sprite-magnolia{ background-position: 0 -1040px; width: 60px; height: 60px; } 
-social.sprite-mixx{ background-position: 0 -1120px; width: 60px; height: 60px; } 
-social.sprite-myspace{ background-position: 0 -1200px; width: 60px; height: 60px; } 
-social.sprite-netvibes{ background-position: 0 -1280px; width: 60px; height: 60px; } 
-social.sprite-newsvine{ background-position: 0 -1360px; width: 60px; height: 60px; } 
-social.sprite-picasa{ background-position: 0 -1440px; width: 60px; height: 60px; } 
-social.sprite-pownce{ background-position: 0 -1520px; width: 60px; height: 60px; } 
-social.sprite-reddit{ background-position: 0 -1600px; width: 60px; height: 60px; } 
-social.sprite-stumbleupon{ background-position: 0 -1680px; width: 60px; height: 60px; } 
-social.sprite-technorati{ background-position: 0 -1760px; width: 60px; height: 60px; } 
-social.sprite-twitter{ background-position: 0 -1840px; width: 60px; height: 60px; } 
-social.sprite-vimeo{ background-position: 0 -1920px; width: 60px; height: 60px; } 
-social.sprite-webshots{ background-position: -80px 0; width: 60px; height: 60px; } 
-social.sprite-wordpress{ background-position: -80px -80px; width: 60px; height: 60px; } 
-social.sprite-yelp{ background-position: -80px -160px; width: 60px; height: 60px; } 
-social.sprite-youtube{ background-position: -80px -240px; width: 60px; height: 60px; } 
+.s60 .social.sprite-blogger{ background-position: 0 0; width: 60px; height: 60px; } 
+.s60 .social.sprite-delicious{ background-position: 0 -80px; width: 60px; height: 60px; } 
+.s60 .social.sprite-digg{ background-position: 0 -160px; width: 60px; height: 60px; } 
+.s60 .social.sprite-ebay{ background-position: 0 -240px; width: 60px; height: 60px; } 
+.s60 .social.sprite-facebook{ background-position: 0 -320px; width: 60px; height: 60px; } 
+.s60 .social.sprite-feed{ background-position: 0 -400px; width: 60px; height: 60px; } 
+.s60 .social.sprite-flickr{ background-position: 0 -480px; width: 60px; height: 60px; } 
+.s60 .social.sprite-friendfeed{ background-position: 0 -560px; width: 60px; height: 60px; } 
+.s60 .social.sprite-friendster{ background-position: 0 -640px; width: 60px; height: 60px; } 
+.s60 .social.sprite-furl{ background-position: 0 -720px; width: 60px; height: 60px; } 
+.s60 .social.sprite-lastfm{ background-position: 0 -800px; width: 60px; height: 60px; } 
+.s60 .social.sprite-linkedin{ background-position: 0 -880px; width: 60px; height: 60px; } 
+.s60 .social.sprite-livejournal{ background-position: 0 -960px; width: 60px; height: 60px; } 
+.s60 .social.sprite-magnolia{ background-position: 0 -1040px; width: 60px; height: 60px; } 
+.s60 .social.sprite-mixx{ background-position: 0 -1120px; width: 60px; height: 60px; } 
+.s60 .social.sprite-myspace{ background-position: 0 -1200px; width: 60px; height: 60px; } 
+.s60 .social.sprite-netvibes{ background-position: 0 -1280px; width: 60px; height: 60px; } 
+.s60 .social.sprite-newsvine{ background-position: 0 -1360px; width: 60px; height: 60px; } 
+.s60 .social.sprite-picasa{ background-position: 0 -1440px; width: 60px; height: 60px; } 
+.s60 .social.sprite-pownce{ background-position: 0 -1520px; width: 60px; height: 60px; } 
+.s60 .social.sprite-reddit{ background-position: 0 -1600px; width: 60px; height: 60px; } 
+.s60 .social.sprite-stumbleupon{ background-position: 0 -1680px; width: 60px; height: 60px; } 
+.s60 .social.sprite-technorati{ background-position: 0 -1760px; width: 60px; height: 60px; } 
+.s60 .social.sprite-twitter{ background-position: 0 -1840px; width: 60px; height: 60px; } 
+.s60 .social.sprite-vimeo{ background-position: 0 -1920px; width: 60px; height: 60px; } 
+.s60 .social.sprite-webshots{ background-position: -80px 0; width: 60px; height: 60px; } 
+.s60 .social.sprite-wordpress{ background-position: -80px -80px; width: 60px; height: 60px; } 
+.s60 .social.sprite-yelp{ background-position: -80px -160px; width: 60px; height: 60px; } 
+.s60 .social.sprite-youtube{ background-position: -80px -240px; width: 60px; height: 60px; } 
