@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "social_icons"
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
-  s.date = "2012-03-27"
+  s.date = "2012-07-10"
   s.description = "Add social media icons to your Rails 3 using CSS sprites or images"
   s.email = [""]
   s.extra_rdoc_files = [
@@ -234,7 +234,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/kristianmandrup/social_icons"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.20"
+  s.rubygems_version = "1.8.24"
   s.summary = "Social media icons for Rails 3"
 
   if s.respond_to? :specification_version then
