@@ -13,6 +13,13 @@ Icons supported so far:
 - Digg
 - Youtube (and many more...)
 
+Adding sprite icon sets
+============
+
+Try use: http://spritegen.website-performance.org/
+
+Also see the 'world-flags' gem, for how to auto generate CSS/SCSS sprite stylesheets :)
+
 Installation
 ============
 
