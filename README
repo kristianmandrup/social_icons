@@ -11,7 +11,7 @@ Icons supported so far:
 - Delicious
 - Reddit
 - Digg
-- Youtube (and more)
+- Youtube (and many more...)
 
 Installation
 ============
@@ -46,9 +46,18 @@ Usage
 
 Wrap with an element of class="social_sprites"
 
-<ul class="social_sprites">
+<ul class="social_sprites s16">
 	<li class="social sprite-Google"></li>
 </ul> 
+
+<ul class="social_sprites s48">
+	<li class="social sprite-Google"></li>
+</ul> 
+
+<ul class="social_sprites aqua">
+	<li class="social sprite-Google"></li>
+</ul> 
+
 
 View Helper methods
 =============
