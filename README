@@ -48,14 +48,22 @@ Simply include the css for the type of icons you want to use.
 */
 
 
-Usage
+/*
+ *= require social_icons_aqua_all
+*/
+
+
+Usage Aqua (all)
 ============
 
 Wrap with an element of class="social_sprites"
 
-<ul class="social_sprites s16">
-	<li class="social sprite-Google"></li>
+<ul class="social_sprites aqua s16">
+	<li class="ss google"></li>
 </ul> 
+
+Usage Default
+============
 
 <ul class="social_sprites s48">
 	<li class="social sprite-Google"></li>
