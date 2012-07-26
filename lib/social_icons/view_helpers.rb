@@ -8,8 +8,6 @@ module SocialIcons
     }
     mattr_reader :social_icons_options
 
-
-    # NOT: Methodunun ismi social_icons olursa partial ismi ile çakışıyor!
     def print_social_icons(opts = {})
       link = "http://" + request.env["HTTP_HOST"] + request.request_uri
       default_opts = {:size => 48, :link => link, :title => "", :icon_set => "default"}
@@ -45,11 +43,6 @@ module SocialIcons
     end
 
     # <a name="fb_share" type="button_count" share_url="http://google.com" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
-    #
-    # Facebook sayfa ile ilgili bilgiyi sayfaya bağlanıp da çekiyor.
-    # O yüzden title bilgisini göndermeye gerek yok.
-    #
-    # NOT: facebook encode edilmiş permalinkleri sevmiyor!
     def social_icon_facebook(opts = {})
       default_opts = {:title => "", :desc => "", :link => ""}
       opts = default_opts.merge(opts)
