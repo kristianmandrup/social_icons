@@ -1,34 +1,40 @@
-.s64.aqua .social_sprites {
+ul.s64.aqua {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;  
+}
+
+.s64.aqua .social {
   background: url(assets/social_icons/aquaticus/png/social_icons_aqua .png) no-repeat top left;
 }
 
-.s64.aqua .social.sprite-blogger{ background-position: 0 0; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-delicious{ background-position: 0 -114px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-digg{ background-position: 0 -228px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-facebook{ background-position: 0 -342px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-feed{ background-position: 0 -456px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-flickr{ background-position: 0 -570px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-friendfeed{ background-position: 0 -684px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-friendster{ background-position: 0 -798px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-furl{ background-position: 0 -912px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-google{ background-position: 0 -1026px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-lastfm{ background-position: 0 -1140px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-linkedin{ background-position: 0 -1254px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-livejournal{ background-position: 0 -1368px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-magnolia{ background-position: 0 -1482px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-mixx{ background-position: 0 -1596px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-myspace{ background-position: 0 -1710px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-netvibes{ background-position: 0 -1824px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-newsvine{ background-position: 0 -1938px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-picasa{ background-position: -114px 0; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-pownce{ background-position: -114px -114px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-reddit{ background-position: -114px -228px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-stumbleupon{ background-position: -114px -342px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-technorati{ background-position: -114px -456px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-twitter{ background-position: -114px -570px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-vimeo{ background-position: -114px -684px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-webshots{ background-position: -114px -798px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-wordpress{ background-position: -114px -912px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-yahoo{ background-position: -114px -1026px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-yelp{ background-position: -114px -1140px; width: 64px; height: 64px; } 
-.s64.aqua .social.sprite-youtube{ background-position: -114px -1254px; width: 64px; height: 64px; } 
+.s64.aqua .blogger{ background-position: 0 0; width: 64px; height: 64px; } 
+.s64.aqua .delicious{ background-position: 0 -114px; width: 64px; height: 64px; } 
+.s64.aqua .digg{ background-position: 0 -228px; width: 64px; height: 64px; } 
+.s64.aqua .facebook{ background-position: 0 -342px; width: 64px; height: 64px; } 
+.s64.aqua .feed{ background-position: 0 -456px; width: 64px; height: 64px; } 
+.s64.aqua .flickr{ background-position: 0 -570px; width: 64px; height: 64px; } 
+.s64.aqua .friendfeed{ background-position: 0 -684px; width: 64px; height: 64px; } 
+.s64.aqua .friendster{ background-position: 0 -798px; width: 64px; height: 64px; } 
+.s64.aqua .furl{ background-position: 0 -912px; width: 64px; height: 64px; } 
+.s64.aqua .google{ background-position: 0 -1026px; width: 64px; height: 64px; } 
+.s64.aqua .lastfm{ background-position: 0 -1140px; width: 64px; height: 64px; } 
+.s64.aqua .linkedin{ background-position: 0 -1254px; width: 64px; height: 64px; } 
+.s64.aqua .livejournal{ background-position: 0 -1368px; width: 64px; height: 64px; } 
+.s64.aqua .magnolia{ background-position: 0 -1482px; width: 64px; height: 64px; } 
+.s64.aqua .mixx{ background-position: 0 -1596px; width: 64px; height: 64px; } 
+.s64.aqua .myspace{ background-position: 0 -1710px; width: 64px; height: 64px; } 
+.s64.aqua .netvibes{ background-position: 0 -1824px; width: 64px; height: 64px; } 
+.s64.aqua .newsvine{ background-position: 0 -1938px; width: 64px; height: 64px; } 
+.s64.aqua .picasa{ background-position: -114px 0; width: 64px; height: 64px; } 
+.s64.aqua .pownce{ background-position: -114px -114px; width: 64px; height: 64px; } 
+.s64.aqua .reddit{ background-position: -114px -228px; width: 64px; height: 64px; } 
+.s64.aqua .stumbleupon{ background-position: -114px -342px; width: 64px; height: 64px; } 
+.s64.aqua .technorati{ background-position: -114px -456px; width: 64px; height: 64px; } 
+.s64.aqua .twitter{ background-position: -114px -570px; width: 64px; height: 64px; } 
+.s64.aqua .vimeo{ background-position: -114px -684px; width: 64px; height: 64px; } 
+.s64.aqua .webshots{ background-position: -114px -798px; width: 64px; height: 64px; } 
+.s64.aqua .wordpress{ background-position: -114px -912px; width: 64px; height: 64px; } 
+.s64.aqua .yahoo{ background-position: -114px -1026px; width: 64px; height: 64px; } 
+.s64.aqua .yelp{ background-position: -114px -1140px; width: 64px; height: 64px; } 
+.s64.aqua .youtube{ background-position: -114px -1254px; width: 64px; height: 64px; } 
